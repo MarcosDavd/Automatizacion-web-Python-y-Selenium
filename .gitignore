@@ -1,0 +1,42 @@
+# Entorno virtual
+automatizacionvenv/
+venv/
+env/
+*/venv/
+*/env/
+.venv/
+.virtualenv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Configuración local
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.env
+
+# Archivos de Selenium o drivers
+chromedriver
+geckodriver
+chromedriver.exe
+geckodriver.exe
+
+# Cache
+.cache/
+.pytest_cache/
